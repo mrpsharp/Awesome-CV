@@ -1,0 +1,266 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=2.5cm, top=1.8cm, right=2.5cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\definecolor{awesome}{HTML}{3222fd}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%                Configuration for fonts
+%-------------------------------------------------------------------------------
+\usepackage{noto}
+\renewcommand*{\headerfont}{\notoserif}
+\renewcommand*{\headerfontlight}{\notoserif}
+\renewcommand*{\footerfont}{\notosans}
+\renewcommand*{\bodyfont}{\notosans}
+\renewcommand*{\bodyfontlight}{\notosans}
+\renewcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{darktext} #1}}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[circle,right]{profile-sq.jpg}
+\name{Peter}{Sharp}
+\position{Physics Tutor{\enskip\cdotp\enskip}Educational Consultant}
+% \address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
+
+% \mobile{(+82) 10-9030-1843}
+\email{peter@petersharp.education}
+%\dateofbirth{January 1st, 1970}
+\homepage{petersharp.education}
+\linkedin{mrpsharp}
+% \github{mrpsharp}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{medium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+% \quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[L]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Peter Sharp~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+\cvsection{Summary}
+
+\begin{cvparagraph}
+  I am an experienced Physics teacher and school leader who offers a flexible and personalised approach to supporting ambitious students studying Physics A-Level and applying to the most selective universities for Physical Sciences and Engineering. I also work with schools supporting them through quality assurance and teacher training.
+\end{cvparagraph}
+
+\cvsection{Current Roles}
+
+\begin{cventries}
+  \cventry{Director, Physics Tutor}{Peter Sharp Education}{Sept 2021 --}{}{
+    \begin{cvitems}
+      \item {Supporting students through Physics A-Level and on to university.}
+    \end{cvitems}
+  }
+
+  \cventry{Assistant Examiner}{Cambridge Assessment, OCR}{June 2022 --}{}{
+    \begin{cvitems}
+      \item {Assistant Examiner for OCR Physics A, Internation A-Level Physics and SEAB A-Level Physics}
+    \end{cvitems}
+  }
+
+  \cventry{Governor}{Christ's School, Richmond}{Nov 2017 --}{}{
+    \begin{cvitems}
+      \item {Chair of Teaching and Learning Committee, link governor}
+    \end{cvitems}
+  }
+
+\end{cventries}
+
+\cvsection{Previous Experience}
+
+
+\begin{cventries}
+
+    \cventry
+      {Deputy Head (Academic)} % Job title
+      {Westminster School} % Organization
+      {Sept. 2008 -- Sept. 2021} % Location
+      {Sept. 2019 -- Sept. 2021} % Date(s)
+      {
+        \begin{cvitems} % Description(s) of tasks/responsibilities
+          \item {Overseeing all aspects of the academic programme from admissions to final university placements.}
+          \item {Moving to full online delivery during the COVID-19 pandemic.}
+          \item {Particular expertise in entry to competitive universities, leadership in challenging times managing high performing organisations.}
+        \end{cvitems}
+      }
+
+    \cventry
+      {Director of Teaching and Learning} % Job title
+      {} % Organization
+      {} % Location
+      {Jan. 2018 -- Sept. 2019} % Date(s)
+      {
+        \begin{cvitems} % Description(s) of tasks/responsibilities
+          \item {Overseeing the quality of education provided including a particular focus on EdTech, supporting SEND students and quality of assessment. Also in charge of staffing links with Harris Westminster Sixth Form.}
+        \end{cvitems}
+      }
+
+    \cventry
+      {Teacher of Physics} % Job title
+      {} % Organization
+      {} % Location
+      {Sept. 2008 -- Sept. 2021} % Date(s)
+      {
+        \begin{cvitems} % Description(s) of tasks/responsibilities
+          \item {Teaching students in Years 9-13 Physics including IGCSE, A-Level and Pre-U.}
+        \end{cvitems}
+      }
+
+    \cventry
+    {Team Inspector, Compliance Team Inspector} % Job title
+    {Independent Schools’ Inspectorate} % Organization
+    {Sept. 2018 -- Jan. 2022} % Location
+    {} % Date(s)
+    {
+    }
+
+    \cventry
+    {Teacher of Physics} % Job title
+    {Highgate School} % Organization
+    {Sept. 2005 -- Sept. 2008} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Teaching GCSE and A-Level Physics to Year 9-13, plus Science to Years 7 and 8.}
+      \end{cvitems}
+    }
+
+    \cventry
+    {Research Officer} % Job title
+    {The Scientific Alliance} % Organization
+    {Nov. 2003 -- Sept. 2004} % Location
+    {} % Date(s)
+    {}
+
+\end{cventries}
+\newpage
+
+\cvsection{Education}
+
+\begin{cventries}
+
+  \cventry
+  {BA Philosophy, Years 1 \& 2} % Degree
+  {Birkbeck, University of London} % Institution
+  {Sept. 2011 -- Sept. 2013} % Location
+  {} % Date(s)
+  {Years 1 \& 2 of a part-time degree in Philosophy. I discontinued these studies due to a relocation but continue to read Philosophy informally.}
+
+  \cventry
+  {PGCE Secondary Science} % Degree
+  {Institute of Education, London} % Institution
+  {Sept. 2004 -- Sept. 2005} % Location
+  {} % Date(s)
+  {}
+
+  \cventry
+  {MSc. Environmental Technology} % Degree
+  {Imperial College, London} % Institution
+  {Sept. 2002 -- Sept. 2003} % Location
+  {} % Date(s)
+  {}
+
+  \cventry
+  {MA Natural Sciences} % Degree
+  {University of Cambridge} % Institution
+  {Sept. 1999 -- Sept. 2002} % Location
+  {} % Date(s)
+  {}
+
+  \cventry
+  {} % Degree
+  {The King's School, Canterbury} % Institution
+  {Sept. 1994 -- Aug. 1999} % Location
+  {} % Date(s)
+  {\begin{cvitems}
+    \item A-Levels: Mathematics, Physics, Chemistry, Geology (all A)
+    \item AS-Level: Further Mathematics (A)
+    \item STEP Physics: 1
+  \end{cvitems}
+  }
+\end{cventries}
+
+\cvsection{Wider Interests}
+
+\cvsubsection{Sport and the outdoors}
+
+\begin{cvparagraph}
+  I am passionate about the outdoors and have spent much of my career taking students on walking, climbing and rowing trips.
+  
+  \begin{itemize}
+    \item Qualified Mountain Leader (ML)
+    \item Minibus D1 licence
+    \item Experienced rowing coach
+    \item RYA Powerboat Level 2
+    \end{itemize}
+\end{cvparagraph}
+
+\cvsubsection{Environmental Technology}
+
+\begin{cvparagraph}
+  I am committed to low-impact living and I am currently living off-grid in a narrowboat on the canals. I am experimenting with different technologies in an attempt to live a full 21st-century life-style with minimal impact on the planet.
+\end{cvparagraph}
+%-------------------------------------------------------------------------------
+\end{document}
