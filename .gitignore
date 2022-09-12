@@ -12,6 +12,8 @@
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
+*.xdv
+*.fdb_latexmk
 
 ### Editor ###
 ## Vim & Emacs temp files:
